@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPICY</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <form class="form" action="">
+          <div class="form-container">
+            <div class="form-left">
+              <input type="text" id="name" placeholder="Navn" />
+              <input type="email" id="email" placeholder="Email" />
+              <input type="text" id="subject" placeholder="Emne" />
+            </div>
+            <div class="form-right">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Besked"
+              ></textarea>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Send" id="input-submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- HEADER -->
+    <header class="hero">
+      <div class="hero-img">
+        <img src="assets/images/Logo-Spicy-White.png" alt="" />
+      </div>
+    </header>
+    <!-- NAV -->
+    <div class="sticky">
+      <nav class="nav">
+        <ul>
+          <li>start</li>
+          <li>om spicy</li>
+          <li>galleri</li>
+          <li>favorit</li>
+          <li id="openModal"><span>kontakt</span></li>
+        </ul>
+        <div id="burgerMenu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+    <!-- SECTION ONE -->
+    <div id="containerMain">
+    <section class="about-container">
+      <h1>om spicy</h1>
+      <div class="article-container">
+        <article>
+          <h3>Konceptet Spicy</h3>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            nesciunt molestias ducimus eveniet aut, accusantium quia sint est,
+            inventore, voluptate suscipit! Neque fugit quis error natus
+            asperiores laudantium, consequuntur labore.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            deserunt voluptatem laboriosam voluptatibus aperiam explicabo ea
+            totam praesentium aliquam et molestiae aliquid eaque, enim nulla eos
+            magnam! Ratione, nulla expedita.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            facere voluptatem, vel odit aliquid magni, voluptatum quis error ab
+            eos quo ullam tenetur possimus amet aspernatur inventore blanditiis,
+            quasi officiis!
+          </p>
+          <br />
+          <a href="">Læs mere:</a>
+        </article>
+        <article>
+          <h3>Produkterne</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+            corporis! Dolor, numquam labore aliquid autem obcaecati, unde qui
+            quam tenetur fugit quo molestiae vel atque velit quaerat? Est,
+            officia nesciunt.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            excepturi quod quidem veniam quam vel enim tempore, dolores magnam
+            facere facilis natus recusandae necessitatibus! Neque nisi molestiae
+            quod! Repellendus, optio!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            doloribus tempore vel veniam, ut facere iure voluptates perferendis
+            hic corporis sed atque tempora! Consequatur perspiciatis architecto,
+            similique dolorem fugiat eius.
+          </p>
+          <br />
+          <a href="">Læs mere:</a>
+        </article>
+      </div>
+    </section>
+    <!-- SECTION TWO -->
+    <section class="gallery">
+      <h1>galleri</h1>
+      <section id="gallery">
+
+      </section>
+      <!-- <div class="gallery-container">
+        <a href="assets/images/Product/Chili-01.jpg" target="_blank"
+          ><img src="assets/images/Product/Chili-01.jpg" alt=""
+        /></a>
+        <a href="assets/images/Product/Chili-02.jpg" target="_blank"
+          ><img src="assets/images/Product/Chili-02.jpg" alt=""
+        /></a>
+        <a href="assets/images/Product/Chili-03.jpg" target="_blank"
+          ><img src="assets/images/Product/Chili-03.jpg" alt=""
+        /></a>
+        <a href="assets/images/Product/Chili-04.jpg" target="_blank"
+          ><img src="assets/images/Product/Chili-04.jpg" alt=""
+        /></a>
+        <a href="assets/images/Product/Chili-05.jpg" target="_blank"
+          ><img src="assets/images/Product/Chili-05.jpg" alt=""
+        /></a>
+        <a href="assets/images/Product/Chili-06.jpg" target="_blank"
+          ><img src="assets/images/Product/Chili-06.jpg" alt=""
+        /></a>
+      </div> -->
+    </section>
+    <!-- SECTION THREE -->
+    <section class="favorit">
+      <h1>Vælg din favorit</h1>
+      <section id="favorit"></section>
+      <!-- <div class="favorit-gallery">
+        <div class="grid1">
+          <img id="thumb1" src="assets/images/Product/Choose-01.jpg" alt="" />
+        </div>
+        <div class="grid2">
+          <div>
+            <img
+              onmouseover="hover(this);"
+              onmouseout="hoverOut(this);"
+              id="thumb2"
+              class="thumb2"
+              src="assets/images/Product/Choose-02.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              onmouseover="hover(this);"
+              onmouseout="hoverOut(this);"
+              id="thumb3"
+              class="thumb3"
+              src="assets/images/Product/Choose-03.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              onmouseover="hover(this);"
+              onmouseout="hoverOut(this);"
+              id="thumb4"
+              class="thumb4"
+              src="assets/images/Product/Choose-04.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              onmouseover="hover(this);"
+              onmouseout="hoverOut(this);"
+              id="thumb5"
+              class="thumb5"
+              src="assets/images/Product/Choose-05.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <footer class="footer">
+      <div class="footer-info">
+        <h1>kontakt spicy:</h1>
+        <p>SPICY <span>Hot</span>Company</p>
+        <p>Boulevarden 39</p>
+        <p>9000 Aalborg</p>
+        <a href="mailto:hckjensen96@gmail.com">Send os en mail:</a>
+        <a href="tel:+4522312086">Ring til os:</a>
+        <div class="SoMe">
+          <img src="assets/images/Some-Facebook.png" alt="" />
+          <img src="assets/images/SoMe-Twitter.png" alt="" />
+          <img src="assets/images/SoMe-Youtube.png" alt="" />
+        </div>
+      </div>
+      <div class="googlemaps">
+        <h1>google maps:</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2170.459063784265!2d9.916163077210445!3d57.04368239183234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464932f3bcda26e3%3A0xcd44aae1c87a63c5!2sBoulevarden%2039%2C%209000%20Aalborg!5e0!3m2!1sen!2sdk!4v1682669214343!5m2!1sen!2sdk"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+  </div>
+    <div id="menuList">
+      <ul>
+        <li>start</li>
+        <li>om spicy</li>
+        <li>galleri</li>
+        <li>favorit</li>
+        <li id="openModal"><span>kontakt</span></li>
+      </ul>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2330c46f9a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
